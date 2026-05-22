@@ -1,0 +1,115 @@
+#vr-ad {
+  margin: 5rem 0;
+}
+
+.ad-box__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.vr-ad__box {
+  min-height: 300px;
+  background-image: url(/img/vr-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  margin: 0 1rem;
+  padding: 7%;
+  min-width: 300px;
+}
+
+.ad-about {
+  margin-bottom: 1.5rem;
+}
+
+.ad-badge {
+  text-transform: uppercase;
+  background: #022554;
+  color: #fff;
+  font-size: 11px;
+  padding: 5px 15px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.ad-title {
+  font-size: 46px;
+  color: #022554;
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+
+.ad-title span {
+  color: #0088ff;
+}
+
+.ad-text {
+  color: #022554;
+  opacity: 0.8;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.sale-btn {
+  background: #0088ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 16px 40px 16px 16px;
+  border-radius: 40px;
+  width: max-content;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.sale-prc {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0088ff;
+  background: #fff;
+  border-radius: 100%;
+  font-size: 11px;
+}
+
+.ad-img img {
+  max-width: 80%;
+}
+
+@media (width <= 576px) {
+  .ad-about {
+    text-align: center;
+  }
+
+  .ad-box__content {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+  }
+
+  .ad-badge {
+    padding: 5px 30px;
+    border-radius: 50px;
+  }
+
+  .ad-title {
+    font-size: 25px;
+  }
+  .ad-text {
+    font-size: 14px;
+  }
+
+  .sale-btn {
+    padding: 8px 20px 8px 8px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .ad-img img {
+    margin: 0 auto;
+    display: block;
+  }
+}

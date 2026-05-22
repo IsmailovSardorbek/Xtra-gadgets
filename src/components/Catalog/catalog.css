@@ -1,0 +1,39 @@
+#catalog {
+  margin: 5rem 1rem;
+}
+
+.catalog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.catalog-item {
+  color: #111;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.catalog-item img {
+  border-radius: 100%;
+}
+
+.catalog-item__title {
+  background: #fff;
+  padding: 15px 40px;
+  border-radius: 100px;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 0.1);
+  width: max-content;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.catalog-item:hover .catalog-item__title {
+  color: #fff;
+  margin-top: -15px;
+  background: #022554;
+}

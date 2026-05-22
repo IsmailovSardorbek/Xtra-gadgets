@@ -1,0 +1,171 @@
+#showcase {
+  margin-top: 2rem;
+}
+
+.banner {
+  min-height: 300px;
+  background-image: url(/img/banner-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 1rem;
+  padding: 10% 6% 3% 6%;
+  position: relative;
+}
+
+.banner-title {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+.banner-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2.5rem;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #a7a7a7;
+  border-radius: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0088ff;
+}
+
+.banner-title span {
+  color: #0088ff;
+}
+
+.banner-text {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.banner-btns {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+
+.explore-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px 15px 15px 30px;
+  border-radius: 100px;
+  border: 0;
+  background: #0088ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.explore-btn:hover {
+  background: #fff;
+  color: #022554;
+}
+
+.explore-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+
+.play-btn {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #0088ff;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.play-btn:hover {
+  color: #fff;
+}
+
+.play-icon {
+  background: #fff;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #111 !important;
+  transition: 0.2s;
+}
+
+.banner-carousel {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 250px;
+  object-fit: contain;
+}
+
+@media (width < 576px) {
+  .banner {
+    padding: 2rem 1rem;
+  }
+
+  .banner-about {
+    text-align: center;
+  }
+
+  .banner-content {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .banner-title {
+    font-size: 25px !important;
+  }
+
+  .banner-text {
+    font-size: 14px;
+  }
+
+  .play-btn {
+    gap: 0.7rem;
+  }
+
+  .explore-btn,
+  .play-btn {
+    font-size: 14px;
+  }
+
+  .banner-btns {
+    flex-direction: column;
+  }
+}

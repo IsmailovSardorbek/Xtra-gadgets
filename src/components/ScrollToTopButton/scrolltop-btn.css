@@ -1,0 +1,22 @@
+.scroll-top {
+  width: 55px;
+  height: 55px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: #0088ff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  position: fixed;
+  right: 30px;
+  bottom: -100%;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.scroll-show {
+  bottom: 30px;
+}

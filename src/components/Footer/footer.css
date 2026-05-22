@@ -1,0 +1,23 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.footer-content img {
+  max-width: 250px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #919191;
+}
+
+@media (width < 576px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

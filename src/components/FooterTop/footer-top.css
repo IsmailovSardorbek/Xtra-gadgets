@@ -1,0 +1,155 @@
+.pre-footer__container {
+  min-height: 200px;
+  background: #eff5fc;
+  border-radius: 50px;
+  padding: 10% 8% 4% 8%;
+  margin: -5% 1rem 0 1rem;
+  z-index: 1;
+}
+
+.pre-footer-content__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#pre-footer {
+  margin-bottom: 2rem;
+}
+
+#pre-footer img {
+  max-width: 250px;
+  margin-bottom: 2rem;
+}
+
+.address p,
+.contacts p {
+  margin-bottom: 6px;
+}
+
+.contacts-adress {
+  color: #022554;
+  font-size: 18px;
+}
+
+.address,
+.contacts {
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+
+.contacts {
+  margin-bottom: 2.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-link {
+  border: 1px solid rgba(2, 37, 84, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #0088ff;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.social-link:hover {
+  color: #fff;
+  background: #0088ff;
+}
+
+.social-link::before {
+  position: absolute;
+  background: #0088ff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 11px;
+  z-index: 11222;
+  top: -90%;
+  content: '';
+  opacity: 0;
+}
+
+.social-link:hover::before {
+  opacity: 1;
+}
+
+.instagam-link::before {
+  content: 'Instagram';
+}
+
+.twitter-link::before {
+  content: 'Twitter';
+}
+
+.facebook-link::before {
+  content: 'Facebook';
+}
+
+.address-text,
+.phone-number {
+  font-weight: 600;
+}
+
+.pre-footer__links {
+  display: grid;
+  flex: 0.9;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.pre-footer-links__list h2 {
+  margin-bottom: 2rem;
+  color: #022554;
+  font-size: 22px;
+}
+
+.links-list li {
+  margin-bottom: 12px;
+}
+
+.links-list li a {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.links-list li a:hover {
+  transform: translateX(10px);
+  color: #0088ff;
+}
+
+.chevron-icon {
+  font-size: 10px;
+}
+
+@media (width < 600px) {
+  .contacts-adress {
+    margin-bottom: 1.5rem;
+  }
+
+  .pre-footer-content__wrapper {
+    flex-direction: column;
+  }
+
+  .address-text,
+  .contacts {
+    font-size: 15px;
+  }
+
+  .address p,
+  .contacts p {
+    font-size: 16px;
+  }
+}

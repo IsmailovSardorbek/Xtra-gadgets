@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Chrome Watch",
+    "category": "Exclusive",
+    "currentPrice": 399,
+    "rating": 4.5,
+    "id": 1
+  },
+  {
+    "name": "PlayStation 5",
+    "category": "Exclusive",
+    "rating": 4.5,
+    "oldPrice": 999,
+    "currentPrice": 899,
+    "isOnSale": true,
+    "salePercentage": 10,
+    "id": 2
+  },
+  {
+    "name": "Tablet X5",
+    "category": "Tablets",
+    "rating": 4.5,
+    "currentPrice": 699,
+    "isOnSale": false,
+    "id": 3
+  },
+  {
+    "name": "PlayStation HeadSet",
+    "category": "Gaming",
+    "rating": 4.5,
+    "currentPrice": 599,
+    "isOnSale": false,
+    "id": 4
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "category": "Smart Phones",
+    "rating": 4.5,
+    "isOnSale": true,
+    "salePercentage": 6,
+    "oldPrice": 1699,
+    "currentPrice": 1599,
+    "id": 5
+  },
+  {
+    "name": "VR Gaming",
+    "category": "Gaming",
+    "rating": 4.5,
+    "isOnSale": false,
+    "currentPrice": 790,
+    "id": 6
+  },
+  {
+    "name": "Wireless Controller 5",
+    "category": "Gaming",
+    "rating": 4.5,
+    "isOnSale": false,
+    "currentPrice": 399,
+    "id": 7
+  },
+  {
+    "name": "XBox One",
+    "category": "Gaming",
+    "rating": 4.5,
+    "isOnSale": true,
+    "salePercentage": 17,
+    "oldPrice": 599,
+    "currentPrice": 499,
+    "id": 8
+  },
+  {
+    "name": "Black Sports Watch",
+    "category": "Smart Watches",
+    "rating": 4.5,
+    "isOnSale": true,
+    "salePercentage": 20,
+    "oldPrice": 499,
+    "currentPrice": 399,
+    "id": 9
+  },
+  {
+    "name": "Android Phone",
+    "category": "Premium Sets",
+    "rating": 5,
+    "isOnSale": false,
+    "currentPrice": 599,
+    "id": 10
+  },
+  {
+    "name": "Silver Laptop",
+    "category": "Laptops",
+    "rating": 5,
+    "isOnSale": true,
+    "salePercentage": 7,
+    "oldPrice": 2999,
+    "currentPrice": 2799,
+    "id": 11
+  },
+  {
+    "name": "Silver Laptop",
+    "category": "Exclusive",
+    "rating": 5,
+    "isOnSale": false,
+    "currentPrice": 2399,
+    "id": 12
+  }
+]

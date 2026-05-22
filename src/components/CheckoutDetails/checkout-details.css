@@ -1,0 +1,59 @@
+.checkout-details {
+    text-align: left;
+}
+
+.coupon-meta {
+  background-color: rgba(0, 136, 255, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 2rem 3rem;
+  text-align: left;
+  position: relative;
+}
+
+.coupon-meta p {
+  font-size: 17px !important;
+  color: #022554;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.coupon-toggle-btn {
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.coupon-toggle-btn:hover {
+  color: #0088ff;
+}
+
+.checkout-details .coupon-form {
+  display: grid;
+  margin: 3rem 1rem;
+  width: 50%;
+  gap: 20px;
+}
+
+.checkout-details .coupon-form button {
+  width: max-content;
+}
+
+.checkout-details .coupon-form input {
+  padding: 12px;
+}
+
+.copy-icon {
+  position: absolute;
+  left: -20px;
+  top: 15px;
+  background: #fff;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(167 167 167 / 0.1);
+  border-radius: 100%;
+  font-size: 20px;
+}

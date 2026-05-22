@@ -1,0 +1,249 @@
+.empty-wishlist-message {
+  margin: 6rem 1rem;
+  text-align: center;
+}
+
+.empty-wishlist-message h1 {
+  color: #022554;
+  margin: 2rem 0;
+  font-size: 35px;
+}
+
+.empty-wishlist-message p {
+  font-size: 18px;
+  color: #022554;
+  opacity: 0.6;
+  margin-bottom: 2.5rem;
+}
+
+.empty-wishlist-message a {
+  margin: 0 auto;
+  padding: 8px 35px;
+}
+
+.empty-wishlist-message a:hover {
+  background: #022554;
+  color: #fff;
+}
+
+#wishlist .products-list {
+  margin-bottom: 4rem;
+}
+
+#wishlist .product-card .card-actions,
+#wishlist .product-card .sale-alert {
+  display: none;
+}
+
+.cart-box {
+  margin: 5rem 0.5rem;
+  text-align: center;
+}
+
+.cart-box h1 {
+  color: #022554;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cart-box p {
+  color: #022554;
+  opacity: 0.6;
+  font-size: 19px;
+}
+
+.cart-items-table {
+  width: 100%;
+  text-align: left;
+}
+
+.cart-items-table,
+tr,
+th,
+td {
+  border: 1px solid rgb(167 167 167 / 0.1);
+  border-collapse: collapse;
+  height: 100%;
+}
+
+.cart-items-table tr th {
+  padding: 14px;
+  color: #022554;
+  background: rgb(167 167 167 / 0.1);
+  font-weight: 600;
+}
+
+.cart-items-table tr td {
+  padding: 18px 14px;
+}
+
+td img {
+  max-width: 100px;
+}
+
+thead {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+tbody td:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-row-btn {
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer;
+  color: #a00;
+  font-size: 14px;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-row-btn:hover {
+  background: #a00;
+  color: #fff;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #022554;
+  border: 0;
+  outline: 0;
+  background: #f9f9f9;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quantity-box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 35px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.quantity button:hover {
+  background: #0088ff;
+  color: #fff;
+}
+
+.table-form td {
+  width: 100%;
+}
+
+.bottom-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coupon-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-action-btn {
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: #0088ff;
+  padding: 8px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.table-action-btn:hover {
+  background: #022554;
+}
+
+.coupon-form input {
+  align-self: stretch;
+  padding: 0 10px;
+  border-radius: 35px;
+  border: 1px solid rgb(167 167 167 / 0.1);
+  transition: all 0.2s ease;
+  outline: 0;
+}
+
+.coupon-form input:focus {
+  border-color: #0088ff;
+}
+
+.d-grid {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  color: #919191;
+  transition: all 0.2s ease;
+}
+
+.step:not(.current-step):hover > h2 {
+  color: #0088ff;
+  opacity: 0.6;
+}
+
+.step h2 {
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.current-step {
+  color: #000;
+  cursor: auto;
+}
+
+.step-index {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #919191;
+  color: #fff;
+}
+
+.current-step .step-index {
+  background: #000;
+}
