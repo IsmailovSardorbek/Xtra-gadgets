@@ -2,16 +2,18 @@ import { useContext, useState } from 'react'
 import { Context } from '../../context'
 import { faCartPlus, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './shopping-cart.css'
 import { Link } from 'react-router'
 import SuggestionsBox from '../SuggestionsBox/SuggestionsBox'
 import CartTotals from '../CartTotals/CartTotals'
+import './shopping-cart.css'
 
-export default function ShoppingCart({ setCurrentStep }) {
+export default function ShoppingCart({
+  setCurrentStep,
+  couponCode,
+  setCouponCode,
+}) {
   const { shoppingCart, setShoppingCart, removeFromShoppingCart } =
     useContext(Context)
-
-  const [couponCode, setCouponCode] = useState('')
 
   const decrementQuantity = (id) => {
     setShoppingCart((prevCart) =>

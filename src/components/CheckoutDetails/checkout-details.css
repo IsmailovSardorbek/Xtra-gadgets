@@ -1,5 +1,5 @@
 .checkout-details {
-    text-align: left;
+  text-align: left;
 }
 
 .coupon-meta {
@@ -56,4 +56,9 @@
   border: 5px solid rgb(167 167 167 / 0.1);
   border-radius: 100%;
   font-size: 20px;
+}
+
+.coupon-form {
+  background: #fff;
+  transition: all 0.3s ease;
 }

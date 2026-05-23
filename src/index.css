@@ -11,10 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-    overflow-x: hidden;
-  } */
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -33,3 +29,6 @@ a {
   text-decoration: none;
 }
 
+table {
+  border-collapse: collapse;
+}

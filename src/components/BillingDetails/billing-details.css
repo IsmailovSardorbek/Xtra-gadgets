@@ -1,3 +1,45 @@
+.billing-details {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 35px;
+  padding: 2.5rem;
+  margin-top: 50px;
+  overflow-y: auto;
+}
+
 .billing-form label {
   display: block;
+  color: #022554;
+  opacity: 0.7;
+}
+
+.billing-form input,
+select,
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.billing-form input:focus {
+  border-color: #0088ff;
+}
+
+.billing-form label {
+  font-size: 14px;
+}
+
+.billing-details hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+label span {
+  color: #a00;
 }

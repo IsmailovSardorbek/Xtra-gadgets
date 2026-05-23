@@ -17,6 +17,8 @@ export default function Cart() {
 
   const orderSteps = ['Shopping Cart', 'Checkout Details', 'Order Complete']
 
+  const [couponCode, setCouponCode] = useState('')
+
   const [currentStep, setCurrentStep] = useState(0)
 
   return (
@@ -38,9 +40,19 @@ export default function Cart() {
             ))}
           </div>
         )}
-        {currentStep === 0 && <ShoppingCart setCurrentStep={setCurrentStep} />}
+        {currentStep === 0 && (
+          <ShoppingCart
+            setCurrentStep={setCurrentStep}
+            couponCode={couponCode}
+            setCouponCode={setCouponCode}
+          />
+        )}
         {currentStep === 1 && (
-          <CheckoutDetails setCurrentStep={setCurrentStep} />
+          <CheckoutDetails
+            setCurrentStep={setCurrentStep}
+            couponCode={couponCode}
+            setCouponCode={setCouponCode}
+          />
         )}
       </div>
     </div>

@@ -1,0 +1,27 @@
+.order-details {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 35px;
+  padding: 2.5rem;
+  margin-top: 50px;
+}
+
+.order-details hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.order-table {
+  width: 100%;
+  color: #022554;
+  font-weight: 300;
+}
+
+.order-table thead {
+  background: rgb(167 167 167 / 0.1);
+}
+
+.order-table th {
+  padding: 1rem;
+}
